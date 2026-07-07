@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RUNNING CLUB · 약관</title>
+<style>
+  :root { --accent:#15A1F7; --ink:#111418; --muted:#6b7280; --line:#e5e7eb; --bg:#ffffff; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard",Segoe UI,Roboto,sans-serif;
+    line-height:1.6; -webkit-text-size-adjust:100%; min-height:100vh;
+    display:flex; align-items:center; justify-content:center; }
+  .card { max-width:520px; width:100%; padding:40px 24px; text-align:center; }
+  .kicker { color:var(--accent); font-weight:700; font-size:13px; letter-spacing:.1em; text-transform:uppercase; margin:0 0 8px; }
+  h1 { font-size:28px; margin:0 0 6px; letter-spacing:-.02em; }
+  .sub { color:var(--muted); font-size:15px; margin:0 0 32px; }
+  .links { display:grid; gap:12px; }
+  .links a { display:block; padding:18px 20px; border:1px solid var(--line); border-radius:14px;
+    color:var(--ink); text-decoration:none; font-size:17px; font-weight:600; text-align:left;
+    transition:border-color .15s, transform .05s; }
+  .links a:hover { border-color:var(--accent); }
+  .links a:active { transform:scale(.99); }
+  .links a span { display:block; color:var(--muted); font-size:13px; font-weight:400; margin-top:3px; }
+  .arrow { float:right; color:var(--accent); }
+  footer { margin-top:32px; color:var(--muted); font-size:13px; }
+  footer a { color:var(--accent); text-decoration:none; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e8eaed; --muted:#9aa0a6; --line:#2a2f36; --bg:#0f1216; }
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <p class="kicker">RUNNING CLUB</p>
+  <h1>약관 및 정책</h1>
+  <p class="sub">TripleA Lab</p>
+  <div class="links">
+    <a href="./privacy/">개인정보처리방침 <span class="arrow">→</span><span>수집 항목·목적·보유·이용자 권리</span></a>
+    <a href="./terms/">이용약관 <span class="arrow">→</span><span>서비스 이용 조건 및 책임</span></a>
+  </div>
+  <footer>문의: <a href="mailto:a3lab01.create@gmail.com">a3lab01.create@gmail.com</a></footer>
+</div>
+</body>
+</html>
