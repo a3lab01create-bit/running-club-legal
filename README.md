@@ -1,6 +1,6 @@
-# RUNNING CLUB — 약관 및 정책
+# Pacefy — 약관 및 정책
 
-TripleA Lab의 러닝 앱 **RUNNING CLUB**의 개인정보처리방침 · 이용약관 정적 페이지.
+TripleA Lab의 러닝 앱 **Pacefy**의 개인정보처리방침 · 이용약관 정적 페이지.
 
 - `/privacy/` — 개인정보처리방침 (2026-07-08 시행)
 - `/terms/` — 이용약관 (2026-07-08 시행)
